@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808489"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:text="Product Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/txt_Product_Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_Product_Name"
+        android:layout_toEndOf="@+id/txt_Product_Name"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="31dp"
+        android:id="@+id/edt_Product_Name"
+        android:hint="Product Name" />
+
+    <TextView
+        android:text="Product Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_Product_Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txt_Product_Desc" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edt_Product_Name"
+        android:layout_alignLeft="@+id/edt_Product_Name"
+        android:layout_alignStart="@+id/edt_Product_Name"
+        android:layout_marginTop="23dp"
+        android:id="@+id/edt_Product_Desc"
+        android:hint="Product Desc" />
+
+    <TextView
+        android:text="Product Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_Product_Desc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="33dp"
+        android:id="@+id/txt_Product_Price" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edt_Product_Price"
+        android:layout_alignBaseline="@+id/txt_Product_Price"
+        android:layout_alignBottom="@+id/txt_Product_Price"
+        android:layout_alignLeft="@+id/edt_Product_Desc"
+        android:layout_alignStart="@+id/edt_Product_Desc"
+        android:hint="Product_Price" />
+
+    <Button
+        android:text="Save Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:id="@+id/btn_Save_Product"
+        android:textAllCaps="false"
+        android:layout_below="@+id/edt_Product_Price"
+        android:layout_alignLeft="@+id/txt_Product_Price"
+        android:layout_alignStart="@+id/txt_Product_Price"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <Button
+        android:text="DisPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_Save_Product"
+        android:layout_alignRight="@+id/edt_Product_Price"
+        android:layout_alignEnd="@+id/edt_Product_Price"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_Display" />
+
+
+</RelativeLayout>

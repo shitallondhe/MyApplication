@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shitalbharatlondhe.machintestfour.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="6"
+        android:id="@+id/edtPPrize"
+        android:layout_alignBaseline="@+id/edtPList"
+        android:layout_alignBottom="@+id/edtPList"
+        android:layout_toRightOf="@+id/txtView1"
+        android:layout_toEndOf="@+id/txtView1" />
+
+    <TextView
+        android:text="Product List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/edtPList"
+        android:layout_alignStart="@+id/edtPList"
+        android:id="@+id/txtPListTwo"
+        android:layout_alignRight="@+id/txtPList"
+        android:layout_alignEnd="@+id/txtPList" />
+
+    <TextView
+        android:text="Product Qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtPPrizeTwo"
+        android:layout_alignRight="@+id/txtPPrize"
+        android:layout_alignEnd="@+id/txtPPrize"
+        android:id="@+id/txtPQty" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:layout_marginTop="19dp"
+        android:id="@+id/edtpQty"
+        android:layout_below="@+id/txtPQty"
+        android:layout_alignLeft="@+id/txtPQty"
+        android:layout_alignStart="@+id/txtPQty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPPTResult"
+        android:layout_alignBaseline="@+id/edtpQty"
+        android:layout_alignBottom="@+id/edtpQty"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Product Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtPList"
+        android:layout_toEndOf="@+id/txtPList" />
+
+    <TextView
+        android:text="Product Prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPPrize"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_above="@+id/edtPList"
+        android:layout_alignRight="@+id/edtPPrize"
+        android:layout_alignEnd="@+id/edtPPrize"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="Product List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtPList"
+        android:layout_below="@+id/txtView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="6"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtPList"
+        android:layout_below="@+id/txtPList"
+        android:layout_alignLeft="@+id/txtPList"
+        android:layout_alignStart="@+id/txtPList" />
+
+    <Button
+        android:text="Save Product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPSave"
+        android:textAllCaps="false"
+        android:layout_below="@+id/edtPPrize"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Total Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpQty"
+        android:layout_alignLeft="@+id/txtPListTwo"
+        android:layout_alignStart="@+id/txtPListTwo"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txtTotal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTotal"
+        android:layout_alignRight="@+id/txtPQty"
+        android:layout_alignEnd="@+id/txtPQty"
+        android:id="@+id/txtTResult" />
+
+    <Spinner
+        android:id="@+id/product_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtTotal"
+        android:layout_alignRight="@+id/txtTotal"
+        android:layout_alignEnd="@+id/txtTotal" />
+
+    <TextView
+        android:text="Product Prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPPrizeTwo"
+        android:layout_alignBaseline="@+id/txtPListTwo"
+        android:layout_alignBottom="@+id/txtPListTwo"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

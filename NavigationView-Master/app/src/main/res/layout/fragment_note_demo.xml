@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b7bdc2">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:layout_below="@+id/edt500"
+        android:layout_alignRight="@+id/edtAmount"
+        android:layout_alignEnd="@+id/edtAmount"
+        android:id="@+id/edt100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="10 = "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt20"
+        android:layout_alignLeft="@+id/txt20"
+        android:layout_alignStart="@+id/txt20"
+        android:id="@+id/txt10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="500 ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/txt500"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtTotalNotes"
+        android:layout_toLeftOf="@+id/txtTotalNotes"
+        android:layout_toStartOf="@+id/txtTotalNotes" />
+
+    <TextView
+        android:text="Enter the Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmount"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/edtAmount"
+        android:layout_alignBottom="@+id/edtAmount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtAmount"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTotalNotes"
+        android:text="Total number of notes"
+        android:textColor="#24f204"
+        android:textSize="18sp"
+        android:layout_below="@+id/edtAmount"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="100 ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt100"
+        android:textSize="18sp"
+        android:layout_below="@+id/edt500"
+        android:layout_alignLeft="@+id/txt500"
+        android:layout_alignStart="@+id/txt500" />
+
+    <TextView
+        android:text="50 = "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt50"
+        android:textSize="18sp"
+        android:layout_below="@+id/edt100"
+        android:layout_alignLeft="@+id/txt100"
+        android:layout_alignStart="@+id/txt100" />
+
+    <TextView
+        android:text="20 ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt20"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/edt20"
+        android:layout_alignLeft="@+id/txt50"
+        android:layout_alignStart="@+id/txt50" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt50"
+        android:textSize="14sp"
+        android:layout_below="@+id/edt100"
+        android:layout_alignLeft="@+id/edt100"
+        android:layout_alignStart="@+id/edt100" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt20"
+        android:textSize="14sp"
+        android:layout_below="@+id/edt50"
+        android:layout_alignLeft="@+id/edt50"
+        android:layout_alignStart="@+id/edt50" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt10"
+        android:textSize="14sp"
+        android:layout_below="@+id/edt20"
+        android:layout_alignLeft="@+id/edt20"
+        android:layout_alignStart="@+id/edt20" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt5"
+        android:layout_below="@+id/edt10"
+        android:layout_alignRight="@+id/edt10"
+        android:layout_alignEnd="@+id/edt10"
+        android:textSize="14sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt2"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/txt2"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_alignLeft="@+id/edt5"
+        android:layout_alignStart="@+id/edt5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt1"
+        android:textSize="14sp"
+        android:layout_below="@+id/edt2"
+        android:layout_alignLeft="@+id/edt2"
+        android:layout_alignStart="@+id/edt2" />
+
+    <TextView
+        android:text="5 = "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt5"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/edt5"
+        android:layout_alignLeft="@+id/txt10"
+        android:layout_alignStart="@+id/txt10" />
+
+    <TextView
+        android:text="1 = "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:textSize="18sp"
+        android:layout_above="@+id/btnResult"
+        android:layout_alignLeft="@+id/txt2"
+        android:layout_alignStart="@+id/txt2" />
+
+    <TextView
+        android:text="2 ="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:textSize="18sp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/txt5"
+        android:layout_alignLeft="@+id/txt5"
+        android:layout_alignStart="@+id/txt5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edt500"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/txt500"
+        android:layout_alignBottom="@+id/txt500"
+        android:layout_alignLeft="@+id/edt100"
+        android:layout_alignStart="@+id/edt100" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResult"
+        android:textAllCaps="false"
+        android:layout_below="@+id/edt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

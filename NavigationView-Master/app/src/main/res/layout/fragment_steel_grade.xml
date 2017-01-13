@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b7bdc2">
+
+
+    <TextView
+        android:text="Grade is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/txtGrade"
+        android:layout_below="@+id/edtTensileStrength"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="7"
+        android:layout_below="@+id/edtTensileStrength"
+        android:layout_toRightOf="@+id/txtHardness"
+        android:layout_toEndOf="@+id/txtHardness"
+        android:layout_marginTop="55dp"
+        android:id="@+id/edtGrde" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtGrde"
+        android:layout_toRightOf="@+id/txtGrade"
+        android:layout_toEndOf="@+id/txtGrade"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btnResult"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="Enter the Hardness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHardness"
+        android:layout_alignTop="@+id/edtHardness"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edtTensileStrength"
+        android:layout_alignBottom="@+id/txtTensileStrength"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Enter the Carbon Content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCarbonContent"
+        android:textSize="18sp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/edtHardness"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:id="@+id/edtCarbonContent"
+        android:layout_alignBottom="@+id/txtCarbonContent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Enter the Tensile Strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTensileStrength"
+        android:textSize="18sp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/txtCarbonContent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="7"
+        android:id="@+id/edtHardness"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

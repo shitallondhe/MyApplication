@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "944567320080",
+    "firebase_url": "https://fir-facebook-8a328.firebaseio.com",
+    "project_id": "fir-facebook-8a328",
+    "storage_bucket": "fir-facebook-8a328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944567320080:android:393ee77315229ef0",
+        "android_client_info": {
+          "package_name": "com.example.shitalbharatlondhe.firebasefacebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944567320080-t6ksh8f0l4pg31jmot3ineup9as5rs49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shitalbharatlondhe.firebasefacebook",
+            "certificate_hash": "1FCBE610D2ACB23F0A4C1D0F598463D5E4FB1A0B"
+          }
+        },
+        {
+          "client_id": "944567320080-ne5shpt7po8ilpm1a0c1vcqocbq6e01d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkofrMvG9P1_pTk_459wGQ7oIDGeuX_XY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944567320080-ne5shpt7po8ilpm1a0c1vcqocbq6e01d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

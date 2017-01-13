@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7bdc2">
+
+
+
+
+    <TextView
+        android:text="Enter The Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:id="@+id/txtEnterNumber"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/txtEnterNumber"
+        android:layout_toRightOf="@+id/txtEnterNumber"
+        android:layout_toEndOf="@+id/txtEnterNumber"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/edtEnterNo" />
+
+    <TextView
+        android:text="Odd Even Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f21105"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="37dp"
+        android:id="@+id/btnResult"
+        android:layout_below="@+id/edtResult"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="37dp"
+        android:id="@+id/edtResult"
+        android:layout_below="@+id/edtEnterNo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

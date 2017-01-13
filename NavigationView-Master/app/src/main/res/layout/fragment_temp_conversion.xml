@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7bdc2">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="5"
+        android:gravity="center"
+        android:id="@+id/edtTempInFarade"
+        android:layout_below="@+id/txtEnterTempInFarade"
+        android:layout_alignLeft="@+id/txtEnterTempInFarade"
+        android:layout_alignStart="@+id/txtEnterTempInFarade" />
+
+    <TextView
+        android:text="Temperature in centigrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTempInCentigrade"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/edtTempInFarade"
+        android:layout_alignLeft="@+id/edtTempInFarade"
+        android:layout_alignStart="@+id/edtTempInFarade" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/edtTempInCentigrade"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/txtTempInCentigrade"
+        android:layout_alignLeft="@+id/edtTempInFarade"
+        android:layout_alignStart="@+id/edtTempInFarade" />
+
+    <TextView
+        android:text="Temperature Conversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:id="@+id/txtConversion"
+        android:textSize="20sp"
+        android:textColor="#f20521"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Enter the temperature in Fahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/txtEnterTempInFarade"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@+id/txtConversion"
+        android:layout_alignLeft="@+id/txtConversion"
+        android:layout_alignStart="@+id/txtConversion" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResult"
+        android:gravity="center"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/edtTempInCentigrade"
+        android:layout_alignLeft="@+id/txtTempInCentigrade"
+        android:layout_alignStart="@+id/txtTempInCentigrade" />
+
+
+</RelativeLayout>

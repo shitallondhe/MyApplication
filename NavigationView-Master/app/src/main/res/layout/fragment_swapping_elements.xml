@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b7bdc2">
+    <TextView
+        android:text="ArrayList before Swap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/txtFirst"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/txtSecond"
+        android:text="ArrayList after swap"
+        android:textSize="18sp"
+        android:layout_below="@+id/edtFirst"
+        android:layout_alignLeft="@+id/txtFirst"
+        android:layout_alignStart="@+id/txtFirst" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:layout_marginTop="36dp"
+        android:id="@+id/edtFirst"
+        android:layout_below="@+id/txtFirst"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:layout_marginTop="31dp"
+        android:id="@+id/edtSecond"
+        android:layout_below="@+id/txtSecond"
+        android:layout_alignRight="@+id/txtFirst"
+        android:layout_alignEnd="@+id/txtFirst" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/btnResult"
+        android:textAllCaps="false"
+        android:layout_below="@+id/edtSecond"
+        android:layout_alignLeft="@+id/edtSecond"
+        android:layout_alignStart="@+id/edtSecond" />
+</RelativeLayout>

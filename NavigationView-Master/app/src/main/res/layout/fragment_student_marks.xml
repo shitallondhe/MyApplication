@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b7bdc2">
+
+    <TextView
+        android:text="Third Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/txtThird"
+        android:layout_below="@+id/edtSecond"
+        android:layout_alignLeft="@+id/txtSecond"
+        android:layout_alignStart="@+id/txtSecond" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtThird"
+        android:layout_below="@+id/edtSecond"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Sixth Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtSixth"
+        android:layout_below="@+id/edtFifth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAvg"
+        android:layout_alignBaseline="@+id/edtAvg"
+        android:layout_alignBottom="@+id/edtAvg"
+        android:layout_alignLeft="@+id/edtResult"
+        android:layout_alignStart="@+id/edtResult" />
+
+    <TextView
+        android:text="First Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/txtFirst"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/txtSixth"
+        android:layout_alignEnd="@+id/txtSixth" />
+
+    <TextView
+        android:text="Fifth Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFifth"
+        android:layout_alignBaseline="@+id/edtFifth"
+        android:layout_alignBottom="@+id/edtFifth"
+        android:layout_alignRight="@+id/txtSixth"
+        android:layout_alignEnd="@+id/txtSixth" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtSecond"
+        android:layout_below="@+id/edtFirst"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Second Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSecond"
+        android:layout_alignBaseline="@+id/edtSecond"
+        android:layout_alignBottom="@+id/edtSecond"
+        android:layout_alignLeft="@+id/txtFifth"
+        android:layout_alignStart="@+id/txtFifth" />
+
+    <Button
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResult"
+        android:layout_below="@+id/edtResult"
+        android:layout_toRightOf="@+id/txtThird"
+        android:layout_toEndOf="@+id/txtThird"
+        android:textColor="#f41206"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtFourth"
+        android:layout_below="@+id/edtThird"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtFifth"
+        android:layout_below="@+id/edtFourth"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Fourth Subject Marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFourth"
+        android:layout_alignBaseline="@+id/edtFourth"
+        android:layout_alignBottom="@+id/edtFourth"
+        android:layout_alignLeft="@+id/txtThird"
+        android:layout_alignStart="@+id/txtThird" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtFirst"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:id="@+id/edtResult"
+        android:layout_below="@+id/edtAvg"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtAvg"
+        android:layout_below="@+id/edtSixth"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="8"
+        android:id="@+id/edtSixth"
+        android:layout_alignBaseline="@+id/txtSixth"
+        android:layout_alignBottom="@+id/txtSixth"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

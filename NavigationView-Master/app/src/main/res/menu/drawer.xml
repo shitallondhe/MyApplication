@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/area_of_circle"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/areaofcircle_string" />
+        <item
+            android:id="@+id/even_odd_number"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="@string/even_odd_number_string"/>
+
+
+        <item
+            android:id="@+id/temp_conversion"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Temp Conversion" />
+
+
+        <item
+            android:id="@+id/length_conversion"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Length Conversion" />
+
+
+        <item
+            android:id="@+id/simple_interest"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Simple Interest" />
+
+        <item
+            android:id="@+id/string_equality"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="String Equality" />
+
+        <item
+            android:id="@+id/array_operations"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Array Operations" />
+
+
+        <item
+            android:id="@+id/amstrong_numbers"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Amstrong Numbers" />
+
+        <item
+            android:id="@+id/random_numbers"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Random Number Display" />
+
+        <item
+            android:id="@+id/arithmetic_operations"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Arithmetic Operations" />
+
+        <item
+            android:id="@+id/swapping_element"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Swapping First and Last element" />
+
+        <item
+            android:id="@+id/student_marks"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Students Marks" />
+
+        <item
+            android:id="@+id/compound_interest"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Compound Interest" />
+
+        <item
+            android:id="@+id/gross_salary"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Gross Salary" />
+
+        <item
+            android:id="@+id/driver_insurance"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Driver Insurance Demo" />
+
+        <item
+            android:id="@+id/charater_determine"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Determination of Characters" />
+
+        <item
+            android:id="@+id/calculate_premium"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Calculate Premium" />
+
+        <item
+            android:id="@+id/steel_grade"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Steel Grade" />
+
+        <item
+            android:id="@+id/note_demo"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Note Demo" />
+
+        <item
+            android:id="@+id/telephone_bill"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Telephone Bill" />
+
+
+        <item
+            android:id="@+id/matrix_operation"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Matrix Operation" />
+
+        <item
+            android:id="@+id/two_array_operation"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Opeartion on Two Array" />
+
+        <item
+            android:id="@+id/calculator"
+            android:checked="false"
+            android:icon="@drawable/ic_star_black"
+            android:title="Calculator" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </group>
+</menu>
